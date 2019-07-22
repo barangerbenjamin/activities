@@ -5,9 +5,9 @@ The home page is the index action of the activity controller.
 You can see all the activities on this page.
 
 You have to login to use the app, there is 3 users:
-login: arne@lewagon.com password: 123456
-login: inge@lewagon.com password: 123456
-login: manuel@lewagon.com password: 123456
+- login: arne@lewagon.com password: 123456
+- login: inge@lewagon.com password: 123456
+- login: manuel@lewagon.com password: 123456
 
 Running the seed will clean the database, create 3 users (see above) and 2 activities per user.
 
