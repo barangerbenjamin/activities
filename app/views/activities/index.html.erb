@@ -5,6 +5,7 @@
 <table>
   <thead>
     <tr>
+      <th>Owner of the activity</th>
       <th>Occurs at</th>
       <th>Name</th>
       <th>Address</th>
@@ -15,6 +16,7 @@
   <tbody>
     <% @activities.each do |activity| %>
       <tr>
+        <td style="background-color: red;"><strong><%= activity.user.email.split("@")[0].capitalize %></strong></td>
         <td><%= activity.occurs_at %></td>
         <td><%= activity.name %></td>
         <td><%= activity.address %></td>
