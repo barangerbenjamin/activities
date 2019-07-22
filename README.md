@@ -1,4 +1,4 @@
-#Implement Pundit
+# Implement Pundit
 
 This is your playground to implement Pundit.
 The home page is the index action of the activity controller.
